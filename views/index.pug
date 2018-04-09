@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  #wrapper
+    #page
+      #content_container
+        div Guess a number 1 - 100
+        .hint_message
+          button(id="hint") Need a hint?
+        #game
+          input#guess_input(type='text' placeholder="" autofocus)
+        .info
+          #show_message
+          .new_game
+        #show_guesses
+          ul(id="show_guesses_list")
